@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class GridSingleton
 {
-    int sizeX;
-    int sizeY;
+    //BOTTOM LEFT IS THE 0,0 OF THE GRID AND TOPRIGHT IS THE sizeX,sizeY of the grid!
+    public Vector3 bottomLeft;
+    public Vector3 topRight;
+    public int sizeX;
+    public int sizeY;
 
     public static GridSingleton gridManager;
 
@@ -23,10 +26,12 @@ public class GridSingleton
         }
     }
 
-    public void Init(Vector3 bottomLeft, Vector3 topRight)
+    public void Init(Vector3 gBottomLeft, Vector3 gTopRight)
     {
-        sizeX = valDist((int)bottomLeft.x, (int)topRight.x);
-        sizeY = valDist((int)bottomLeft.z, (int)topRight.z);
+        bottomLeft = gBottomLeft;
+        topRight = gTopRight;
+        sizeX = valDist((int)gBottomLeft.x, (int)gTopRight.x);
+        sizeY = valDist((int)gBottomLeft.z, (int)gTopRight.z);
         map = new BaseTile[sizeX][];
         for (int currX = 0; currX < sizeX; currX++)
         {
@@ -56,6 +61,11 @@ public class GridSingleton
     public static Vector2 GiveGridSnap(Vector2 snapPos)
     {
         return new Vector2(Mathf.Round(snapPos.x), Mathf.Round(snapPos.y));
+    }
+
+    public Vector2 GiveGridPos(Vector3 gPosition)
+    {
+        return new Vector2((int)gPosition.x - (int)bottomLeft.x, (int)gPosition.y - (int)bottomLeft.x);
     }
 
     /*

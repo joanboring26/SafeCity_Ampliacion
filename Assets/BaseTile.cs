@@ -8,25 +8,33 @@ public class BaseTile : MonoBehaviour
 {
     public STATE cState;
 
-    int currTileX;
-    int currTileY;
+    public int currTileX;
+    public int currTileY;
 
-
+    public bool isInit = false;
     public bool isBurnable = false;
-    public bool isBeingEvacuated;
+    public bool isBeingEvacuated = false;
 
-    public float BuildingStrengthRemaining;
-    public float BuildingLifeRemaining;
-    public float BuildingStrength;
-    public float BuildingLife;
+    public float TileStrengthRemaining;
+    public float TileLifeRemaining;
+    public float TileStrength;
+    public float TileLife;
     
     public float DifficultyEntry;
     public float DifficultyExit;
 
     public virtual void Init()
     {
-        BuildingLifeRemaining = BuildingLife;
-        BuildingStrengthRemaining = BuildingStrength;
+        isInit = true;
+        if (transform != null)
+        {
+            Vector2 posVec = GridSingleton.getRef().GiveGridPos(transform.position);
+            currTileX = (int)posVec.x;
+            currTileY = (int)posVec.y;
+            //transform.position
+        }
+        TileLifeRemaining = TileLife;
+        TileStrengthRemaining = TileStrength;
         cState = STATE.INTACT;
         isBeingEvacuated = false;
     }
@@ -35,9 +43,9 @@ public class BaseTile : MonoBehaviour
     {
         if (isBurnable)
         {
-            if (BuildingStrengthRemaining >= 0)
+            if (TileStrengthRemaining >= 0)
             {
-                BuildingStrengthRemaining -= burnStrength;
+                TileStrengthRemaining -= burnStrength;
             }
             else
             {
@@ -46,13 +54,34 @@ public class BaseTile : MonoBehaviour
         }
     }
 
+    public virtual void SpreadFire(float fireStrength)
+    {
+        BaseTile cTile;
+        for (int y = -1; y < 2; y++)
+        {
+            if(currTileY + y >= 0 && currTileY + y < GridSingleton.gridManager.sizeY)
+            {
+                for (int x = -1; x < 2; x++)
+                {
+                    if (currTileX + x >= 0 && currTileX + x < GridSingleton.gridManager.sizeX)
+                    {
+                        cTile = GridSingleton.getRef().map[currTileX + x][currTileY + y];
+                        if (cTile.isInit)
+                        {
+                            cTile.CheckTileCatchFire(fireStrength);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     public virtual void SetOnFire()
     {
         cState = STATE.BURNING;
-
     }
 
-    public virtual void CheckBuildingDestroy(float burnStrength)
+    public virtual void CheckTileDestroy(float burnStrength)
     {
         //Tile is burning here, do checks to spread fire too
 

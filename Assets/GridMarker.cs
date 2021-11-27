@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class GridMarker : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Transform bottomLeft;
+    public Transform topRight;
+
+    GridSingleton gridRef;
+
+    private void Awake()
     {
-        
+        gridRef = GridSingleton.getRef();
+        gridRef.Init(bottomLeft.position, topRight.position);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
