@@ -11,6 +11,8 @@ public class GridSingleton
     public int sizeY;
 
     public static GridSingleton gridManager;
+    public static float updateDelayTime = 0.5f;
+    public static float nextUpdateTime = 0f;
 
     public BaseTile[][] map;
 

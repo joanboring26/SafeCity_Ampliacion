@@ -19,9 +19,14 @@ public class BaseTile : MonoBehaviour
     public float TileLifeRemaining;
     public float TileStrength;
     public float TileLife;
+    public float CurrentBurnStrength;
+    public float TileBurnStrength;
     
     public float DifficultyEntry;
     public float DifficultyExit;
+
+    GameObject fireSprite;
+    public GameObject firePrefab;
 
     public virtual void Init()
     {
@@ -78,13 +83,35 @@ public class BaseTile : MonoBehaviour
 
     public virtual void SetOnFire()
     {
-        cState = STATE.BURNING;
+        if (cState == STATE.INTACT)
+        {
+            cState = STATE.BURNING;
+            if (firePrefab == null)
+            {
+                firePrefab = Instantiate(firePrefab, transform.position, transform.rotation);
+                //Fire scaling to be fixed
+                //firePrefab.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+            }
+        }
+    }
+
+    //Update the strength of the fire
+    public void UpdateFireStatus()
+    {
+        if(CurrentBurnStrength < TileBurnStrength)
+        {
+            CurrentBurnStrength += 0.25f;
+        }
     }
 
     public virtual void CheckTileDestroy(float burnStrength)
     {
-        //Tile is burning here, do checks to spread fire too
-
+        //Tile is burning here
+        TileLifeRemaining -= burnStrength;
+        if(TileLifeRemaining <= 0)
+        {
+            cState = STATE.DESTROYED;
+        }    
     }
 
 
