@@ -11,8 +11,8 @@ public class GridSingleton
     public int sizeY;
 
     public static GridSingleton gridManager;
-    public static float updateDelayTime = 0.5f;
-    public static float nextUpdateTime = 0f;
+    public float updateDelayTime = 0.5f;
+    public float nextUpdateTime = 0f;
 
     public BaseTile[][] map;
 
@@ -32,8 +32,8 @@ public class GridSingleton
     {
         bottomLeft = gBottomLeft;
         topRight = gTopRight;
-        sizeX = valDist((int)gBottomLeft.x, (int)gTopRight.x);
-        sizeY = valDist((int)gBottomLeft.z, (int)gTopRight.z);
+        sizeX = valDist((int)gBottomLeft.x, (int)gTopRight.x) + 1;
+        sizeY = valDist((int)gBottomLeft.y, (int)gTopRight.y) + 1;
         map = new BaseTile[sizeX][];
         for (int currX = 0; currX < sizeX; currX++)
         {
@@ -67,7 +67,7 @@ public class GridSingleton
 
     public Vector2 GiveGridPos(Vector3 gPosition)
     {
-        return new Vector2((int)gPosition.x - (int)bottomLeft.x, (int)gPosition.y - (int)bottomLeft.x);
+        return new Vector2((int)gPosition.x - (int)bottomLeft.x, (int)gPosition.y - (int)bottomLeft.y);
     }
 
     /*

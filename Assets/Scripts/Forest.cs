@@ -17,9 +17,9 @@ public class Forest : BaseTile
 
     public void Update()
     {
-        if (cState == STATE.BURNING && ((Time.deltaTime > GridSingleton.nextUpdateTime) || (Time.time + GridSingleton.updateDelayTime == GridSingleton.nextUpdateTime)))
+        if (cState == STATE.BURNING && ((Time.time > GridSingleton.getRef().nextUpdateTime) || (Time.time + GridSingleton.getRef().updateDelayTime == GridSingleton.getRef().nextUpdateTime)))
         {
-            GridSingleton.nextUpdateTime = Time.time + GridSingleton.updateDelayTime;
+            GridSingleton.getRef().nextUpdateTime = Time.time + GridSingleton.getRef().updateDelayTime;
             CheckTileDestroy(CurrentBurnStrength);
             SpreadFire(CurrentBurnStrength);
             UpdateFireStatus();

@@ -27,6 +27,8 @@ public class BaseTile : MonoBehaviour
 
     GameObject fireSprite;
     public GameObject firePrefab;
+    public GameObject destroyedVisual;
+    public GameObject intactVisual;
 
     public virtual void Init()
     {
@@ -86,9 +88,9 @@ public class BaseTile : MonoBehaviour
         if (cState == STATE.INTACT)
         {
             cState = STATE.BURNING;
-            if (firePrefab == null)
+            if (fireSprite == null)
             {
-                firePrefab = Instantiate(firePrefab, transform.position, transform.rotation);
+                fireSprite = Instantiate(firePrefab, transform.position, transform.rotation);
                 //Fire scaling to be fixed
                 //firePrefab.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
             }
@@ -111,11 +113,11 @@ public class BaseTile : MonoBehaviour
         if(TileLifeRemaining <= 0)
         {
             cState = STATE.DESTROYED;
+            Destroy(fireSprite);
+            destroyedVisual.SetActive(true);
+            intactVisual.SetActive(false);
         }    
     }
-
-
-
 
     //Definir metodos de interacción
 }
