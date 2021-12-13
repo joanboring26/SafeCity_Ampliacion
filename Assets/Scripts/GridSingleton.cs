@@ -32,8 +32,9 @@ public class GridSingleton
     {
         bottomLeft = gBottomLeft;
         topRight = gTopRight;
-        sizeX = valDist((int)gBottomLeft.x, (int)gTopRight.x) + 1;
-        sizeY = valDist((int)gBottomLeft.y, (int)gTopRight.y) + 1;
+        sizeX = 19;//valDist((int)gBottomLeft.x, (int)gTopRight.x) + 1;
+        sizeY = 22;//valDist((int)gBottomLeft.y, (int)gTopRight.y) + 1;
+       
         map = new BaseTile[sizeX][];
         for (int currX = 0; currX < sizeX; currX++)
         {

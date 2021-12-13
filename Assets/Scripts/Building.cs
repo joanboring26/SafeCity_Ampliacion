@@ -12,7 +12,7 @@ public class Building : BaseTile
 
     public void Update()
     {
-        Debug.Log("Update");
+       
         if(cState == STATE.BURNING && ((Time.deltaTime > GridSingleton.getRef().nextUpdateTime) || (Time.time + GridSingleton.getRef().updateDelayTime == GridSingleton.getRef().nextUpdateTime)))
         {
             GridSingleton.getRef().nextUpdateTime = Time.time + GridSingleton.getRef().updateDelayTime;

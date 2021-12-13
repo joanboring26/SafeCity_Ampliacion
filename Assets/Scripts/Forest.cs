@@ -12,6 +12,7 @@ public class Forest : BaseTile
         if (setFireOnStart)
         {
             SetOnFire();
+            Debug.Log("Onfire");
         }
     }
 

@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum STATE { BURNING, INTACT, DESTROYED}
+public enum TileType { GRASS, BUILDING, ROAD}
+
 
 public class BaseTile : MonoBehaviour
 {
     public STATE cState;
+    public TileType cType;
 
     public int currTileX;
     public int currTileY;
