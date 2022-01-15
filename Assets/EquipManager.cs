@@ -18,20 +18,29 @@ public class EquipManager : MonoBehaviour
     public float timer3;
 
     public GameObject b1, b2, b3;
+    public GameObject t1, t2, t3;
 
     private void Start()
     {
         Player = GameObject.Find("Main Camera").GetComponent<PlayerController>();
+        timer1 = cooldown1;
+        timer2 = cooldown2;
+        timer3 = cooldown3;
     }
 
-    public void Update()
+    public void FixedUpdate()
     {
+        if (t1.GetComponent<Text>().text == "0") t1.GetComponent<Text>().text = "";
+        if (t2.GetComponent<Text>().text == "0") t2.GetComponent<Text>().text = "";
+        if (t3.GetComponent<Text>().text == "0") t3.GetComponent<Text>().text = "";
+
         if (timer1 >= cooldown1)
             can1 = true;
         else
         {
             can1 = false;
             timer1 += Time.fixedDeltaTime;
+            t1.GetComponent<Text>().text = ((int)cooldown1-(int)timer1).ToString();
         }
         if (timer2 >= cooldown2)
             can2 = true;
@@ -39,6 +48,7 @@ public class EquipManager : MonoBehaviour
         {
             can2 = false;
             timer2 += Time.fixedDeltaTime;
+            t2.GetComponent<Text>().text = ((int)cooldown2 - (int)timer2).ToString();
         }
         if (timer3 >= cooldown3)
             can3 = true;
@@ -46,6 +56,7 @@ public class EquipManager : MonoBehaviour
         {
             can3 = false;
             timer3 += Time.fixedDeltaTime;
+            t3.GetComponent<Text>().text = ((int)cooldown3 - (int)timer3).ToString();
         }
 
         if (can1)
@@ -69,8 +80,6 @@ public class EquipManager : MonoBehaviour
     {
         if (can1)
         {
-            timer1 = 0;
-            can1 = false;
             Player.EquipedSkill = Skill.SMALLFIRE;
         }
     }
@@ -78,8 +87,6 @@ public class EquipManager : MonoBehaviour
     {
         if (can2)
         {
-            timer2 = 0;
-            can2 = false;
             Player.EquipedSkill = Skill.BIGFIRE;
         }
     }
@@ -88,8 +95,6 @@ public class EquipManager : MonoBehaviour
     {
         if (can3)
         {
-            timer3 = 0;
-            can3 = false;
             Player.EquipedSkill = Skill.EXPLOSION;
         }
     }

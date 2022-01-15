@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public enum Skill { SMALLFIRE, BIGFIRE, EXPLOSION }
+public enum Skill { SMALLFIRE, BIGFIRE, EXPLOSION, NONE }
 
 public class PlayerController : MonoBehaviour
 {
 
     public Skill EquipedSkill;
+
+    public EquipManager em;
 
     void Update()
     {
@@ -38,6 +40,7 @@ public class PlayerController : MonoBehaviour
                             break;
 
                     }
+                    em.Player.EquipedSkill = Skill.NONE;
 
 
                 }
@@ -48,7 +51,11 @@ public class PlayerController : MonoBehaviour
 
     public void smallFire(BaseTile selected)
     {
-        if (selected.cType == TileType.GRASS) selected.SetOnFire();
+        if (selected.cType == TileType.GRASS)
+        {
+            selected.SetOnFire();
+            em.timer1 = 0;
+        }
     }
 
     public void bigFire(BaseTile selected)
@@ -56,6 +63,7 @@ public class PlayerController : MonoBehaviour
         if (selected.cType == TileType.GRASS)
         {
             selected.SetOnFire();
+            em.timer2 = 0;
 
             if (GridSingleton.getRef().map[selected.currTileX + 1][selected.currTileY].cType == TileType.GRASS &&
                selected.currTileX + 1 < GridSingleton.getRef().sizeX)
@@ -80,6 +88,7 @@ public class PlayerController : MonoBehaviour
     {
         if (selected.cType == TileType.BUILDING)
         {
+            em.timer3 = 0;
             selected.SetOnFire();
         }
     }
