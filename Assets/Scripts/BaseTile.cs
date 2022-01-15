@@ -28,6 +28,11 @@ public class BaseTile : MonoBehaviour
     public float DifficultyEntry;
     public float DifficultyExit;
 
+    public float TimeToFirefighters = 2;
+    public float FightersPower = 1;
+    public bool fireFightersON = false;
+    public float FFStress = 0.1f;
+
     GameObject fireSprite;
     public GameObject firePrefab;
     public GameObject destroyedVisual;
@@ -73,7 +78,7 @@ public class BaseTile : MonoBehaviour
             {
                 for (int x = -1; x < 2; x++)
                 {
-                    if (currTileX + x >= 0 && currTileX + x < GridSingleton.gridManager.sizeX)
+                    if (currTileX + x >= 0 && currTileX + x < GridSingleton.gridManager.sizeX && !fireFightersON && cState == STATE.BURNING)
                     {
                         cTile = GridSingleton.getRef().map[currTileX + x][currTileY + y];
                         if (cTile.isInit)
@@ -90,20 +95,41 @@ public class BaseTile : MonoBehaviour
     {
         if (cState == STATE.INTACT)
         {
+            GridSingleton.gridManager.fireFstrength -= FFStress;
             cState = STATE.BURNING;
             if (fireSprite == null)
             {
                 fireSprite = Instantiate(firePrefab, transform.position, transform.rotation);
+                StartCoroutine(GoFirefighters());
                 //Fire scaling to be fixed
                 //firePrefab.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
             }
         }
     }
 
+    public IEnumerator GoFirefighters()
+    {
+        yield return new WaitForSecondsRealtime(TimeToFirefighters - GridSingleton.gridManager.fireFstrength);
+        fireFightersON = true;
+        //FeedbackVisual
+    }
+
     //Update the strength of the fire
     public void UpdateFireStatus()
     {
-        if(CurrentBurnStrength < TileBurnStrength)
+        if(fireFightersON)
+        {
+            CurrentBurnStrength -= FightersPower + GridSingleton.gridManager.fireFstrength / 100 ;
+            if(CurrentBurnStrength <= 0)
+            {
+                cState = STATE.INTACT;
+                GridSingleton.gridManager.fireFstrength += FFStress - FFStress * 0.25f;
+                fireFightersON = false;
+                //Quitar feedback
+                Destroy(fireSprite.gameObject);
+            }
+        }
+        else if(CurrentBurnStrength < TileBurnStrength)
         {
             CurrentBurnStrength += 0.25f;
         }
@@ -116,6 +142,7 @@ public class BaseTile : MonoBehaviour
         if(TileLifeRemaining <= 0)
         {
             cState = STATE.DESTROYED;
+            GridSingleton.gridManager.fireFstrength -= 0.005f;
             Destroy(fireSprite);
             destroyedVisual.SetActive(true);
             intactVisual.SetActive(false);

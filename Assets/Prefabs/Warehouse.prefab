@@ -308,6 +308,10 @@ MonoBehaviour:
   TileBurnStrength: 10
   DifficultyEntry: 4
   DifficultyExit: 10
+  TimeToFirefighters: 9
+  FightersPower: 0.25
+  fireFightersON: 0
+  FFStress: 0.25
   firePrefab: {fileID: 156979005407569010, guid: 6e0c6d74452367648b5b2188044d3921, type: 3}
   destroyedVisual: {fileID: 4269529915559532141}
   intactVisual: {fileID: 4292044902946307797}

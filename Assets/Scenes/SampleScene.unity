@@ -183,6 +183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!4 &10708471 stripped
@@ -197,6 +201,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -263,6 +271,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -382,6 +394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &29329042 stripped
@@ -396,6 +412,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -644,6 +664,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -813,6 +837,10 @@ PrefabInstance:
     - target: {fileID: 3857897987988172348, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
       propertyPath: m_Name
       value: Building (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
@@ -1250,6 +1278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &90013500 stripped
@@ -1634,6 +1666,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -1699,6 +1735,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -1863,6 +1903,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -1981,6 +2025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!4 &138192354 stripped
@@ -1995,6 +2043,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -2191,6 +2243,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -2366,6 +2422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!4 &179709434 stripped
@@ -2380,6 +2440,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -2442,6 +2506,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -2502,6 +2570,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -2868,6 +2940,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -2928,6 +3004,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -3134,6 +3214,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -3194,6 +3278,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -3328,6 +3416,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -3393,6 +3485,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -3542,6 +3638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!1001 &257534143
@@ -3551,6 +3651,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -3612,6 +3716,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -3902,6 +4010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!1001 &281104472
@@ -4026,6 +4138,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -4091,6 +4207,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -4242,6 +4362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!1001 &306756838
@@ -4298,6 +4422,10 @@ PrefabInstance:
     - target: {fileID: 2276498524474728876, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
       propertyPath: m_Name
       value: Hospital (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586489989375777760, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
@@ -4361,6 +4489,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!4 &314622579 stripped
@@ -4422,6 +4554,10 @@ PrefabInstance:
     - target: {fileID: 3857897987988172348, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
       propertyPath: m_Name
       value: Building (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
@@ -4485,6 +4621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &324001343 stripped
@@ -4504,6 +4644,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -4613,6 +4757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hospital (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5586489989375777760, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
 --- !u!4 &328622335 stripped
@@ -4627,6 +4775,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -4765,6 +4917,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -4998,6 +5154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &366189828 stripped
@@ -5137,6 +5297,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -5250,6 +5414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!1001 &378388249
@@ -5259,6 +5427,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -5320,6 +5492,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -5429,6 +5605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &383733448 stripped
@@ -5443,6 +5623,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -5557,6 +5741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!1001 &393271176
@@ -5566,6 +5754,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -5632,6 +5824,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -5750,6 +5946,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -5897,6 +6097,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -5957,6 +6161,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -6225,6 +6433,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -6348,6 +6560,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -6413,6 +6629,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -6536,6 +6756,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -6675,6 +6899,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -6746,6 +6974,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -6806,6 +7038,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -6933,6 +7169,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -6999,6 +7239,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -7064,6 +7308,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -7590,6 +7838,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -7656,6 +7908,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -7721,6 +7977,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -7911,6 +8171,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -8169,6 +8433,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -8302,6 +8570,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -8415,6 +8687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hospital (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5586489989375777760, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
 --- !u!4 &609966381 stripped
@@ -8439,6 +8715,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -8548,6 +8828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &628029653 stripped
@@ -8628,6 +8912,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -8737,6 +9025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &647665275 stripped
@@ -8841,6 +9133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!4 &662371417 stripped
@@ -8855,6 +9151,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -8979,6 +9279,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -9092,6 +9396,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &678044402 stripped
@@ -9189,6 +9497,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -9254,6 +9566,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -9497,6 +9813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &694488592 stripped
@@ -9691,6 +10011,10 @@ PrefabInstance:
     - target: {fileID: 3857897987988172348, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
       propertyPath: m_Name
       value: Building (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
@@ -9941,6 +10265,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -10353,6 +10681,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -10543,6 +10875,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -10718,6 +11054,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -10856,6 +11196,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -10921,6 +11265,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -11111,6 +11459,10 @@ PrefabInstance:
     - target: {fileID: 3857897987988172348, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
       propertyPath: m_Name
       value: Building (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
@@ -11306,6 +11658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!1001 &828621585
@@ -11362,6 +11718,10 @@ PrefabInstance:
     - target: {fileID: 3857897987988172348, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
       propertyPath: m_Name
       value: Building (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
@@ -11502,6 +11862,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -11620,6 +11984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &869680533 stripped
@@ -11654,6 +12022,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -11720,6 +12092,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -11879,6 +12255,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -11939,6 +12319,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -12048,6 +12432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &906826360 stripped
@@ -12072,6 +12460,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -12138,6 +12530,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -12319,6 +12715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!4 &929769943 stripped
@@ -12452,6 +12852,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -12633,6 +13037,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -12699,6 +13107,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -12764,6 +13176,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -12995,6 +13411,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -13123,6 +13543,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -13183,6 +13607,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -13631,6 +14059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!1001 &1014163757
@@ -13702,6 +14134,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -13831,6 +14267,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -13949,6 +14389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!1001 &1030133052
@@ -14020,6 +14464,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -14219,6 +14667,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -14294,6 +14746,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -14433,6 +14889,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -14555,6 +15015,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -14684,6 +15148,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -14792,6 +15260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1139279479 stripped
@@ -14806,6 +15278,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -14992,6 +15468,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -15057,6 +15537,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -15171,6 +15655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!1001 &1175316261
@@ -15227,6 +15715,10 @@ PrefabInstance:
     - target: {fileID: 4292044903364701324, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
       propertyPath: m_Name
       value: Warehouse (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
@@ -15321,6 +15813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!1001 &1181589148
@@ -15377,6 +15873,10 @@ PrefabInstance:
     - target: {fileID: 2276498524474728876, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
       propertyPath: m_Name
       value: Hospital (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586489989375777760, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
@@ -15449,6 +15949,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -15525,6 +16029,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -15658,6 +16166,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -15896,6 +16408,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hospital (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5586489989375777760, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
 --- !u!4 &1247331568 stripped
@@ -16025,6 +16541,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -16132,6 +16652,10 @@ PrefabInstance:
     - target: {fileID: 2276498524474728876, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
       propertyPath: m_Name
       value: Hospital (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586489989375777760, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
@@ -16353,6 +16877,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -16414,6 +16942,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -16474,6 +17006,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -16583,6 +17119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hospital (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5586489989375777760, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
 --- !u!1001 &1288740818
@@ -16640,6 +17180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!1001 &1300168420
@@ -16649,6 +17193,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -16720,6 +17268,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -16839,6 +17391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!4 &1317134956 stripped
@@ -16910,6 +17466,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -17081,6 +17641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!4 &1333097230 stripped
@@ -17095,6 +17659,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -17166,6 +17734,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -17646,6 +18218,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -17711,6 +18287,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -17782,6 +18362,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -17896,6 +18480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!1001 &1369664176
@@ -17905,6 +18493,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -17971,6 +18563,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -18052,6 +18648,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -18228,6 +18828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1385092334 stripped
@@ -18242,6 +18846,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -18356,6 +18964,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!4 &1407133174 stripped
@@ -18370,6 +18982,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -18804,6 +19420,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -18869,6 +19489,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -19121,6 +19745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1460654448 stripped
@@ -19317,6 +19945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!4 &1466979674 stripped
@@ -19379,6 +20011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!1001 &1472841707
@@ -19436,6 +20072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!1001 &1474249842
@@ -19445,6 +20085,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -19558,6 +20202,10 @@ PrefabInstance:
     - target: {fileID: 3857897987988172348, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
       propertyPath: m_Name
       value: Building (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
@@ -19693,6 +20341,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -19753,6 +20405,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -19929,6 +20585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1508771187 stripped
@@ -20000,6 +20660,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -20267,6 +20931,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -20327,6 +20995,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -20560,6 +21232,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -20688,6 +21364,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -20811,6 +21491,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -20871,6 +21555,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -20937,6 +21625,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -21051,6 +21743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1567751742 stripped
@@ -21156,6 +21852,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -21284,6 +21984,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -21447,6 +22151,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -21590,6 +22298,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -21661,6 +22373,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -21721,6 +22437,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -21835,6 +22555,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hospital (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5586489989375777760, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
 --- !u!1001 &1634359477
@@ -21901,6 +22625,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -22015,6 +22743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1650455372 stripped
@@ -22029,6 +22761,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -22138,6 +22874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1664641275 stripped
@@ -22152,6 +22892,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -22266,6 +23010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1684929809 stripped
@@ -22353,6 +23101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!4 &1713433319 stripped
@@ -22429,6 +23181,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -22733,6 +23489,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -22856,6 +23616,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -22964,6 +23728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!1001 &1752400677
@@ -22973,6 +23741,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -23154,6 +23926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1757894243 stripped
@@ -23226,6 +24002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!1001 &1772403329
@@ -23297,6 +24077,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -23436,6 +24220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1791692002 stripped
@@ -23450,6 +24238,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -23511,6 +24303,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -23640,6 +24436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!1001 &1799866906
@@ -23697,6 +24497,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hospital (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5586489989375777760, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
 --- !u!1001 &1804460298
@@ -23706,6 +24510,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -23773,6 +24581,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -23839,6 +24651,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -23904,6 +24720,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -23996,6 +24816,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -24061,6 +24885,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -24169,6 +24997,10 @@ PrefabInstance:
     - target: {fileID: 3857897987988172348, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
       propertyPath: m_Name
       value: Building (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
@@ -24304,6 +25136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1837646078 stripped
@@ -24318,6 +25154,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -24417,6 +25257,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -24477,6 +25321,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -24544,6 +25392,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -24604,6 +25456,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -24712,6 +25568,10 @@ PrefabInstance:
     - target: {fileID: 3857897987988172348, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
       propertyPath: m_Name
       value: Building (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
@@ -24834,6 +25694,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -24951,6 +25815,10 @@ PrefabInstance:
     - target: {fileID: 4292044903364701324, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
       propertyPath: m_Name
       value: Warehouse (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
@@ -25076,6 +25944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1906605195 stripped
@@ -25090,6 +25962,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -25400,6 +26276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!1 &1928805232
@@ -25441,6 +26321,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -25612,6 +26496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1943780904 stripped
@@ -25683,6 +26571,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -25792,6 +26684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &1950468489 stripped
@@ -25806,6 +26702,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -25878,6 +26778,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -25949,6 +26853,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -26009,6 +26917,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -26133,6 +27045,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -26245,6 +27161,10 @@ PrefabInstance:
     - target: {fileID: 3857897987988172348, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
       propertyPath: m_Name
       value: Building (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
@@ -26437,6 +27357,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -26502,6 +27426,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -26573,6 +27501,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -26686,6 +27618,10 @@ PrefabInstance:
     - target: {fileID: 3857897987988172348, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
       propertyPath: m_Name
       value: Building (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
@@ -26828,6 +27764,10 @@ PrefabInstance:
     - target: {fileID: 3857897987988172348, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
       propertyPath: m_Name
       value: Building (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
@@ -26978,6 +27918,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -27043,6 +27987,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -27249,6 +28197,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -27314,6 +28266,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -27423,6 +28379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!4 &2081103847 stripped
@@ -27437,6 +28397,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -27508,6 +28472,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -27699,6 +28667,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -27812,6 +28784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!1001 &2106816781
@@ -27884,6 +28860,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -27944,6 +28924,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -28068,6 +29052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Warehouse (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
 --- !u!1001 &2126713762
@@ -28077,6 +29065,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
@@ -28248,6 +29240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
 --- !u!4 &2133347721 stripped
@@ -28309,6 +29305,10 @@ PrefabInstance:
     - target: {fileID: 3857897987988172348, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
       propertyPath: m_Name
       value: Building (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465435003220530288, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169c64810891cab43aa84ddedbc228f3, type: 3}
@@ -28387,8 +29387,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 1264482838}
     m_Modifications:
     - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: FightersPower
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: setFireOnStart
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799057838176067776, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
+      propertyPath: TimeToFirefighters
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5799057838176067777, guid: 38bb73dbde0ab924b93bf370f082933e, type: 3}
       propertyPath: m_Name
@@ -28504,6 +29512,10 @@ PrefabInstance:
     - target: {fileID: 4292044903364701324, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
       propertyPath: m_Name
       value: Warehouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 7602327178353874624, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53223a90b2e22cb488bc2471ddc500a0, type: 3}
@@ -28623,6 +29635,10 @@ PrefabInstance:
     - target: {fileID: 2276498524474728876, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
       propertyPath: m_Name
       value: Hospital
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586489989375777760, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}
+      propertyPath: FightersPower
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e68c0d468a5927340a6fb1cf3bbe35e5, type: 3}

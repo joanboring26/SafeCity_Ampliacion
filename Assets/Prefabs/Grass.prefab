@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cState: 1
+  cType: 0
   currTileX: 0
   currTileY: 0
   isInit: 0
@@ -60,6 +61,10 @@ MonoBehaviour:
   TileBurnStrength: 5
   DifficultyEntry: 2
   DifficultyExit: 2
+  TimeToFirefighters: 8
+  FightersPower: 0.25
+  fireFightersON: 0
+  FFStress: 0.01
   firePrefab: {fileID: 156979005407569010, guid: 6e0c6d74452367648b5b2188044d3921, type: 3}
   destroyedVisual: {fileID: 5812571167318186528}
   intactVisual: {fileID: 5799057838594208408}
