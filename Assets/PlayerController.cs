@@ -1,19 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public enum Skill { SMALLFIRE, BIGFIRE, EXPLOSION, NONE }
 
 public class PlayerController : MonoBehaviour
 {
+    public float time_limit;
+    public float timer;
+    public int itimer;
+    public bool started = false;
+    public bool finished = false;
 
     public Skill EquipedSkill;
 
     public EquipManager em;
+    public Text t;
+    
 
-    void Update()
+    void FixedUpdate()
     {
+        if (started)
+            timer += Time.fixedDeltaTime;
+        if (timer >= time_limit)
+            finished = true;
+        if (finished)
+            started = false;
+        itimer = (int) timer;
+        t.text = "Timer: " + itimer.ToString();
+
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
@@ -24,6 +41,8 @@ public class PlayerController : MonoBehaviour
                 if (hit.transform.GetComponent<BaseTile>())
                 {
                     BaseTile clicked = hit.transform.GetComponent<BaseTile>();
+
+                    if (!started) started = true;
 
                     switch (EquipedSkill)
                     {
