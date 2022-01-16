@@ -63,7 +63,6 @@ public class PlayerController : MonoBehaviour
         if (selected.cType == TileType.GRASS)
         {
             selected.SetOnFire();
-            em.timer2 = 0;
 
             if (GridSingleton.getRef().map[selected.currTileX + 1][selected.currTileY].cType == TileType.GRASS &&
                selected.currTileX + 1 < GridSingleton.getRef().sizeX)
@@ -80,6 +79,8 @@ public class PlayerController : MonoBehaviour
             if (GridSingleton.getRef().map[selected.currTileX][selected.currTileY - 1].cType == TileType.GRASS &&
               selected.currTileY - 1 > 0)
                 GridSingleton.getRef().map[selected.currTileX][selected.currTileY - 1].SetOnFire();
+
+            em.timer2 = 0;
         }
 
     }

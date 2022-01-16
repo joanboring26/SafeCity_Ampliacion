@@ -117,7 +117,13 @@ public class BaseTile : MonoBehaviour
     //Update the strength of the fire
     public void UpdateFireStatus()
     {
-        if(fireFightersON)
+
+        if (fireSprite == null)
+        {
+            fireSprite = Instantiate(firePrefab, transform.position, transform.rotation);
+        }
+
+        if (fireFightersON)
         {
             CurrentBurnStrength -= FightersPower + GridSingleton.gridManager.fireFstrength / 100 ;
             if(CurrentBurnStrength <= 0)
@@ -131,7 +137,7 @@ public class BaseTile : MonoBehaviour
         }
         else if(CurrentBurnStrength < TileBurnStrength)
         {
-            CurrentBurnStrength += 0.25f;
+            CurrentBurnStrength += 0.15f;
         }
     }
 

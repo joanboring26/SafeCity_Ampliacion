@@ -13,7 +13,7 @@ public class GridSingleton
     public static GridSingleton gridManager;
     public float updateDelayTime = 0.5f;
     public float nextUpdateTime = 0f;
-    public float fireFstrength = 5;
+    public float fireFstrength = 4;
 
     public BaseTile[][] map;
 

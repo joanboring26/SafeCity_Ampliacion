@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Pause_Menu : MonoBehaviour
 {
     public EquipManager e;
-
+    public string nextLevel;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,4 +28,16 @@ public class Pause_Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+
+    public void GoNextLevel()
+    {
+        SceneManager.LoadScene("nextLevel");
+    }
+
+    public void ReloadLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GridSingleton.getRef().fireFstrength = 4;
+    }
+
 }
