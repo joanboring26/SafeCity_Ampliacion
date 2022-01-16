@@ -20,16 +20,38 @@ public class EquipManager : MonoBehaviour
     public GameObject b1, b2, b3;
     public GameObject t1, t2, t3;
 
+    public GameObject pause;
+    public bool paused;
+    public bool pauseKey;
+
     private void Start()
     {
         Player = GameObject.Find("Main Camera").GetComponent<PlayerController>();
         timer1 = cooldown1;
         timer2 = cooldown2;
         timer3 = cooldown3;
+        paused = false;
     }
 
     public void FixedUpdate()
     {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            if (!pauseKey)
+            {
+                if (paused) paused = false;
+                else paused = true;
+            }
+            pauseKey = true;
+        }
+        else pauseKey = false;
+
+        if (paused)
+            pause.SetActive(true);
+        else
+            pause.SetActive(false);
+
+
         if (t1.GetComponent<Text>().text == "0") t1.GetComponent<Text>().text = "";
         if (t2.GetComponent<Text>().text == "0") t2.GetComponent<Text>().text = "";
         if (t3.GetComponent<Text>().text == "0") t3.GetComponent<Text>().text = "";
@@ -78,14 +100,14 @@ public class EquipManager : MonoBehaviour
 
     public void equipSmallFire()
     {
-        if (can1)
+        if (can1 && !paused)
         {
             Player.EquipedSkill = Skill.SMALLFIRE;
         }
     }
     public void equipBigFire()
     {
-        if (can2)
+        if (can2 && !paused)
         {
             Player.EquipedSkill = Skill.BIGFIRE;
         }
@@ -93,7 +115,7 @@ public class EquipManager : MonoBehaviour
 
     public void equipExplosion()
     {
-        if (can3)
+        if (can3 && !paused)
         {
             Player.EquipedSkill = Skill.EXPLOSION;
         }
