@@ -36,6 +36,7 @@ public class BaseTile : MonoBehaviour
     SpriteRenderer fireSpriteRef;
 
     GameObject fireSprite;
+    GameObject waterSprite;
     public GameObject firePrefab;
     public GameObject waterPrefab;
     public GameObject destroyedVisual;
@@ -121,6 +122,7 @@ public class BaseTile : MonoBehaviour
         yield return new WaitForSecondsRealtime(TimeToFirefighters - GridSingleton.gridManager.fireFstrength);
         fireFightersON = true;
         //FeedbackVisual
+        waterSprite = Instantiate(waterPrefab, transform.position, transform.rotation);
     }
 
     //Update the strength of the fire
@@ -141,6 +143,7 @@ public class BaseTile : MonoBehaviour
                 GridSingleton.gridManager.fireFstrength += FFStress - FFStress * 0.25f;
                 fireFightersON = false;
                 //Quitar feedback
+                Destroy(waterSprite);
                 Destroy(fireSprite.gameObject);
             }
         }

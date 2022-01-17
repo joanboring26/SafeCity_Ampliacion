@@ -58,7 +58,7 @@ MonoBehaviour:
   TileStrength: 3
   TileLife: 12
   CurrentBurnStrength: 0
-  TileBurnStrength: 6
+  TileBurnStrength: 5
   DifficultyEntry: 2
   DifficultyExit: 2
   TimeToFirefighters: 8
