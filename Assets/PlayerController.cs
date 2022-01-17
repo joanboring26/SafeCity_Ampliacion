@@ -19,17 +19,21 @@ public class PlayerController : MonoBehaviour
     public EquipManager em;
     public Text t;
     
+    void Start()
+    {
+        timer = time_limit;
+    }
 
     void FixedUpdate()
     {
         if (started)
-            timer += Time.fixedDeltaTime;
-        if (timer >= time_limit)
+            timer -= Time.fixedDeltaTime;
+        if (timer <= 0)
             finished = true;
         if (finished)
             started = false;
         itimer = (int) timer;
-        t.text = "Timer: " + itimer.ToString();
+        t.text = "Time left: " + itimer.ToString();
 
         if (Input.GetMouseButtonDown(0))
         {

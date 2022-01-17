@@ -11421,7 +11421,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Timer: 0'
+  m_Text: 'Time left: 0'
 --- !u!222 &752439664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14697,7 +14697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed3b5dfe069b8404c845c81b6aeaf475, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time_limit: 5
+  time_limit: 30
   timer: 0
   itimer: 0
   started: 0
