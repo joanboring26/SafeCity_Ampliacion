@@ -152,6 +152,7 @@ public class BaseTile : MonoBehaviour
             CurrentBurnStrength += 0.15f;
         }
 
+        if(fireSpriteRef != null)
         fireSpriteRef.color = new Color(fireSpriteRef.color.r, fireSpriteRef.color.g, fireSpriteRef.color.b, 0.25f + Mathf.Clamp((CurrentBurnStrength / TileBurnStrength), 0, 0.75f));
 
     }

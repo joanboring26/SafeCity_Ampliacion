@@ -70,7 +70,7 @@ MonoBehaviour:
   destroyedVisual: {fileID: 5812571167318186528}
   intactVisual: {fileID: 5799057838594208408}
   buildingSpriteRef: {fileID: 5799057838594208410}
-  bgSpriteRef: {fileID: 0}
+  bgSpriteRef: {fileID: 5799057838594208410}
   setFireOnStart: 0
 --- !u!65 &1640038193223502782
 BoxCollider:
