@@ -60,9 +60,15 @@ MonoBehaviour:
   TileBurnStrength: 10000000
   DifficultyEntry: 10000000
   DifficultyExit: 10000000
+  TimeToFirefighters: 2
+  FightersPower: 1
+  fireFightersON: 0
+  FFStress: 0.1
   firePrefab: {fileID: 762272903571756209}
+  waterPrefab: {fileID: 156979005407569010, guid: 2ef46fd6b78ac0247af1ae56d9442533, type: 3}
   destroyedVisual: {fileID: 762272903571756209}
   intactVisual: {fileID: 762272903571756209}
+  buildingSpriteRef: {fileID: 8810991214611458402}
 --- !u!65 &8057700563474019551
 BoxCollider:
   m_ObjectHideFlags: 0

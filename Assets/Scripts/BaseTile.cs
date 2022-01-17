@@ -33,10 +33,15 @@ public class BaseTile : MonoBehaviour
     public bool fireFightersON = false;
     public float FFStress = 0.1f;
 
+    SpriteRenderer fireSpriteRef;
+
     GameObject fireSprite;
     public GameObject firePrefab;
+    public GameObject waterPrefab;
     public GameObject destroyedVisual;
     public GameObject intactVisual;
+    public SpriteRenderer buildingSpriteRef;
+    public SpriteRenderer bgSpriteRef;
 
     public virtual void Init()
     {
@@ -58,6 +63,8 @@ public class BaseTile : MonoBehaviour
     {
         if (isBurnable)
         {
+            float tileColor = 0.25f + Mathf.Clamp((TileStrengthRemaining / TileStrength), 0, 0.75f);
+            buildingSpriteRef.color = new Color(tileColor, tileColor, tileColor, 1);
             if (TileStrengthRemaining >= 0)
             {
                 TileStrengthRemaining -= burnStrength;
@@ -67,6 +74,7 @@ public class BaseTile : MonoBehaviour
                 SetOnFire();
             }
         }
+        //bgSpriteRef.color = new Color(tileColor, tileColor, tileColor, 1);
     }
 
     public virtual void SpreadFire(float fireStrength)
@@ -100,6 +108,7 @@ public class BaseTile : MonoBehaviour
             if (fireSprite == null)
             {
                 fireSprite = Instantiate(firePrefab, transform.position, transform.rotation);
+                fireSpriteRef = fireSprite.GetComponentInChildren<SpriteRenderer>();
                 StartCoroutine(GoFirefighters());
                 //Fire scaling to be fixed
                 //firePrefab.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
@@ -139,6 +148,9 @@ public class BaseTile : MonoBehaviour
         {
             CurrentBurnStrength += 0.15f;
         }
+
+        fireSpriteRef.color = new Color(fireSpriteRef.color.r, fireSpriteRef.color.g, fireSpriteRef.color.b, 0.25f + Mathf.Clamp((CurrentBurnStrength / TileBurnStrength), 0, 0.75f));
+
     }
 
     public virtual void CheckTileDestroy(float burnStrength)

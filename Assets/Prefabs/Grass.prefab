@@ -53,12 +53,12 @@ MonoBehaviour:
   isInit: 0
   isBurnable: 1
   isBeingEvacuated: 0
-  TileStrengthRemaining: 4
+  TileStrengthRemaining: 3
   TileLifeRemaining: 12
-  TileStrength: 4
+  TileStrength: 3
   TileLife: 12
   CurrentBurnStrength: 0
-  TileBurnStrength: 5
+  TileBurnStrength: 6
   DifficultyEntry: 2
   DifficultyExit: 2
   TimeToFirefighters: 8
@@ -66,8 +66,11 @@ MonoBehaviour:
   fireFightersON: 0
   FFStress: 0.01
   firePrefab: {fileID: 156979005407569010, guid: 6e0c6d74452367648b5b2188044d3921, type: 3}
+  waterPrefab: {fileID: 156979005407569010, guid: 2ef46fd6b78ac0247af1ae56d9442533, type: 3}
   destroyedVisual: {fileID: 5812571167318186528}
   intactVisual: {fileID: 5799057838594208408}
+  buildingSpriteRef: {fileID: 5799057838594208410}
+  bgSpriteRef: {fileID: 0}
   setFireOnStart: 0
 --- !u!65 &1640038193223502782
 BoxCollider:
