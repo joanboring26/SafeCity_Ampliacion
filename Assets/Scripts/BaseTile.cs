@@ -33,10 +33,16 @@ public class BaseTile : MonoBehaviour
     public bool fireFightersON = false;
     public float FFStress = 0.1f;
 
+    SpriteRenderer fireSpriteRef;
+
     GameObject fireSprite;
+    GameObject waterSprite;
     public GameObject firePrefab;
+    public GameObject waterPrefab;
     public GameObject destroyedVisual;
     public GameObject intactVisual;
+    public SpriteRenderer buildingSpriteRef;
+    public SpriteRenderer bgSpriteRef;
 
     public virtual void Init()
     {
@@ -58,6 +64,8 @@ public class BaseTile : MonoBehaviour
     {
         if (isBurnable)
         {
+            float tileColor = 0.25f + Mathf.Clamp((TileStrengthRemaining / TileStrength), 0, 0.75f);
+            buildingSpriteRef.color = new Color(tileColor, tileColor, tileColor, 1);
             if (TileStrengthRemaining >= 0)
             {
                 TileStrengthRemaining -= burnStrength;
@@ -67,6 +75,7 @@ public class BaseTile : MonoBehaviour
                 SetOnFire();
             }
         }
+        //bgSpriteRef.color = new Color(tileColor, tileColor, tileColor, 1);
     }
 
     public virtual void SpreadFire(float fireStrength)
@@ -95,12 +104,14 @@ public class BaseTile : MonoBehaviour
     {
         if (cState == STATE.INTACT)
         {
-            GridSingleton.gridManager.fireFstrength -= FFStress;
+            
             cState = STATE.BURNING;
             if (fireSprite == null)
             {
                 fireSprite = Instantiate(firePrefab, transform.position, transform.rotation);
+                fireSpriteRef = fireSprite.GetComponentInChildren<SpriteRenderer>();
                 StartCoroutine(GoFirefighters());
+                GridSingleton.gridManager.fireFstrength -= FFStress;
                 //Fire scaling to be fixed
                 //firePrefab.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
             }
@@ -112,6 +123,7 @@ public class BaseTile : MonoBehaviour
         yield return new WaitForSecondsRealtime(TimeToFirefighters - GridSingleton.gridManager.fireFstrength);
         fireFightersON = true;
         //FeedbackVisual
+        waterSprite = Instantiate(waterPrefab, transform.position, transform.rotation);
     }
 
     //Update the strength of the fire
@@ -132,6 +144,7 @@ public class BaseTile : MonoBehaviour
                 GridSingleton.gridManager.fireFstrength += FFStress - FFStress * 0.25f;
                 fireFightersON = false;
                 //Quitar feedback
+                Destroy(waterSprite);
                 Destroy(fireSprite.gameObject);
             }
         }
@@ -139,13 +152,17 @@ public class BaseTile : MonoBehaviour
         {
             CurrentBurnStrength += 0.15f;
         }
+
+        if(fireSpriteRef != null)
+        fireSpriteRef.color = new Color(fireSpriteRef.color.r, fireSpriteRef.color.g, fireSpriteRef.color.b, 0.25f + Mathf.Clamp((CurrentBurnStrength / TileBurnStrength), 0, 0.75f));
+
     }
 
     public virtual void CheckTileDestroy(float burnStrength)
     {
         //Tile is burning here
         TileLifeRemaining -= burnStrength;
-        if(TileLifeRemaining <= 0)
+        if(TileLifeRemaining <= 0 && cState == STATE.BURNING)
         {
             cState = STATE.DESTROYED;
             GridSingleton.gridManager.fireFstrength -= 0.005f;

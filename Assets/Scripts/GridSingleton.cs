@@ -13,7 +13,7 @@ public class GridSingleton
     public static GridSingleton gridManager;
     public float updateDelayTime = 0.5f;
     public float nextUpdateTime = 0f;
-    public float fireFstrength = 4;
+    public float fireFstrength = 8;
 
     public BaseTile[][] map;
 
@@ -33,8 +33,8 @@ public class GridSingleton
     {
         bottomLeft = gBottomLeft;
         topRight = gTopRight;
-        sizeX = 19;//valDist((int)gBottomLeft.x, (int)gTopRight.x) + 1;
-        sizeY = 22;//valDist((int)gBottomLeft.y, (int)gTopRight.y) + 1;
+        sizeX = 20;//valDist((int)gBottomLeft.x, (int)gTopRight.x) + 1;
+        sizeY = 23;//valDist((int)gBottomLeft.y, (int)gTopRight.y) + 1;
        
         map = new BaseTile[sizeX][];
         for (int currX = 0; currX < sizeX; currX++)

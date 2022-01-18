@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GridMarker : MonoBehaviour
 {
@@ -17,13 +18,20 @@ public class GridMarker : MonoBehaviour
     {
         gridRef = GridSingleton.getRef();
         gridRef.Init(bottomLeft.position, topRight.position);
-        sDebugFFS = gridRef.fireFstrength;
 
+        if (SceneManager.GetActiveScene().name == "Level2"){
+            sDebugFFS = 5;
+            s.maxValue = 5;
+        }
+        else {
+            sDebugFFS = gridRef.fireFstrength;
+            s.maxValue = gridRef.fireFstrength;
+        }
 
     }
     private void Start()
     {
-        s.maxValue = gridRef.fireFstrength;
+       
     }
     private void Update()
     {

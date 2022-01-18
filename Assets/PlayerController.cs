@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public enum Skill { SMALLFIRE, BIGFIRE, EXPLOSION, NONE }
 
@@ -24,6 +24,10 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         timer = time_limit;
+
+
+        if (SceneManager.GetActiveScene().name == "Level2") GridSingleton.getRef().fireFstrength = 5;
+
     }
 
     void FixedUpdate()
@@ -40,17 +44,22 @@ public class PlayerController : MonoBehaviour
         itimer = (int) timer;
         t.text = "Time left: " + itimer.ToString();
 
+        
+    }
+
+    private void Update()
+    {
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            Debug.DrawRay(Camera.main.transform.position, ray.direction * 10000.0f);
-            if (Physics.Raycast(ray, out hit, 10000.0f))
+            Debug.DrawRay(Camera.main.transform.position, ray.direction * 1000000000000.0f);
+            if (Physics.Raycast(ray, out hit, 1000000000000.0f))
             {
                 if (hit.transform.GetComponent<BaseTile>())
                 {
                     BaseTile clicked = hit.transform.GetComponent<BaseTile>();
-
+                    Debug.Log(clicked.name);
                     if (!started) started = true;
 
                     switch (EquipedSkill)
