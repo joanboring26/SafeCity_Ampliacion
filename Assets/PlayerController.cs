@@ -18,7 +18,9 @@ public class PlayerController : MonoBehaviour
 
     public EquipManager em;
     public Text t;
-    
+
+    public GameObject loseUI;
+
     void Start()
     {
         timer = time_limit;
@@ -29,7 +31,10 @@ public class PlayerController : MonoBehaviour
         if (started)
             timer -= Time.fixedDeltaTime;
         if (timer <= 0)
+        {
             finished = true;
+            loseUI.SetActive(true);
+        }
         if (finished)
             started = false;
         itimer = (int) timer;
